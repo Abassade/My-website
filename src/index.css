@@ -8,6 +8,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.index{
+  background: url('./images/abass.jpeg');
+  height: 520px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .footer{
+  background: black;
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
