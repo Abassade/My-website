@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Index from './components/Index';
 import Icon from './components/Icon';
 import Footer from './components/Footer';
+import Knowus from './components/Knowus';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         {/* <Route/> */}
         <Index/>
         <Icon/>
+        <Knowus/>
         <Footer/>
       </div>
     );

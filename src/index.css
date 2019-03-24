@@ -16,9 +16,10 @@ body {
   background-size: cover;
 }
 
-/* .footer{
-  background: black;
-} */
+.knowus{
+  background: rgb(235, 235, 235);
+  width: 100%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

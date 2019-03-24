@@ -7,8 +7,8 @@ export default class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
-              <h5 className="white-text">All about Softnet</h5>
-              <p className="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+              <h5 className="white-text">Brief About Softnet</h5>
+              <p className="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. We love changing the World with technology, making it a better place and promising. Any amount would help support and continue development on this project and is greatly appreciated.</p>
     
     
             </div>
@@ -17,17 +17,12 @@ export default class Footer extends Component {
               <ul>
                 <li><a className="white-text" href="#!">Link 1</a></li>
                 <li><a className="white-text" href="#!">Link 2</a></li>
-                <li><a className="white-text" href="#!">Link 3</a></li>
-                <li><a className="white-text" href="#!">Link 4</a></li>
               </ul>
             </div>
             <div className="col l3 s12">
               <h5 className="white-text">Connect</h5>
               <ul>
-                <li><a className="white-text" href="#!"><i class="material-icons">email</i></a></li>
-                <li><a className="white-text" href="#!"><i class="material-icons">email</i></a></li>
-                <li><a className="white-text" href="#!"><i class="material-icons">email</i></a></li>
-                <li><a className="white-text" href="#!"><i class="material-icons">email</i></a></li>
+                <li><a className="white-text" href="mailto:abs4real16.ma@gmail.com"><i className="material-icons">email</i></a></li>
               </ul>
             </div>
           </div>
