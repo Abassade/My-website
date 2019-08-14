@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
-// import {Route} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Header from './components/Header';
-import Index from './components/Index';
-import Icon from './components/Icon';
-import Footer from './components/Footer';
-import Knowus from './components/Knowus';
+import Login from './components/Login';
+import Home from './components/Home';
+import Register from './components/Register';
+import Blog from './components/Blog';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-        {/* <Route/> */}
-        <Index/>
-        <Icon/>
-        <Knowus/>
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Header/>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/login" component={Login}/>
+            <Route path="/register" component={Register}/>
+            <Route path="/blog" component={Blog}/>
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }

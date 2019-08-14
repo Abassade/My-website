@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,11 +21,85 @@ body {
 }
 
 .knowus{
-  background: rgb(235, 235, 235);
+  background: rgb(247, 247, 247);
   width: 100%;
+}
+
+.card{
+  height: 400px;
+}
+
+.contact{
+  background: url('./images/two.svg');
+  height: 400px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .main{
+  background: url('./images/two.svg');
+  height: 350px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+input, textarea{
+  border: 1px solid gray !important;
+  margin-left: 11px !important;
+  border-radius: 6px !important;
+  margin-left: 0px !important;
+  /* width: 70%!important; */
+  padding-left: 17px !important;
+  padding-right: 17px !important;
+}
+
+input {
+  width: 70%!important;
+}
+
+textarea {
+  width: 70% !important;
+  height: 157px !important;
+  box-sizing: content-box !important;
+}
+
+#name {
+  border-bottom: 0px;
+}
+
+.email {
+  margin-bottom: 0rem;
+}
+
+input:focus {
+  border-bottom: 0px;
+}
+
+label {
+  margin-left: 17px;
+}
+
+.send {
+  margin-left: 11px;
+  height: 40px;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  .hello {
+    text-align: center;
+  }
+  label {
+    left: calc(15% - 1rem) !important;
+  }
+  form.s12 > div {
+    text-align: center;
+  }
 }
